@@ -1216,7 +1216,7 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 #suggestion_info tr { border-bottom: 0.1px solid rgba(67, 85, 87, 0.3) }
 #suggestion_info tr:first-child, #suggestion_info tr:last-child { border: none }
 .header, #torrents form.search_form, #requests form.search_form { margin-bottom: 22px; }
-.head { height: 17px !important; background-color: #62768a;}
+.head { min-height: 17px; max-height: 50px /*sanity*/ ; background-color: #62768a;}
 .box2, #rules .sidebar .box { margin-bottom: 16px; }
 .navigation_list, .navigation_list ol { margin-top: 0px; margin-bottom: 5px; }
 ::-webkit-input-placeholder { color: #888; }
