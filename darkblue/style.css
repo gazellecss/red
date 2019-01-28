@@ -1223,7 +1223,17 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 :-moz-placeholder { color: #888; }
 ::-moz-placeholder { color: #888; }
 #atc_select { max-width: calc(100% - 20px) !important; }
-#qrcode img { background: white; padding: 10px; }
+#qrcode img { background-color: white; padding: 10px; } /* ensures scannability */
+#reply_box > h3, #staffpm #inbox > h3 { background-color: #62768a;  border-radius: 2px; padding: 6px; margin-bottom: -1px; }
+#torrents #reply_box > h3 { margin-bottom: -22px; }
+#staffpm #compose, .badge--holder, .badge--log_box { /* Anything that needs a background */
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background: #1d1d1d;
+	margin-bottom: 16px;
+	padding: 1em;
+}
 img[alt="qotquiet's avatar"] {
 	display: block;
 	box-sizing: border-box; 
