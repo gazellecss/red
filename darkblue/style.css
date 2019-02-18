@@ -850,6 +850,7 @@ tr.peer_list td {
 tr#edition_expand { height: 60px !important; vertical-align: bottom }
 tr#edition_title { height: 60px !important; vertical-align: top }
 tr#catalogue_number_year > td:nth-child(3), tr#catalogue_number_year > td:nth-child(4), #edition_title > td:nth-child(3), #edition_title > td:nth-child(4) { position: relative; top: 30px; right: 480px; }
+td.ft_remasteryear { display: inline-block; }
 
 .torrent_table tr {
 	vertical-align: top;
