@@ -1244,6 +1244,11 @@ img[alt="qotquiet's avatar"] {
 	padding-left: 150px;
 }
 /* RED graphs */
+.chart-text { fill: #e0e0e0; }
+.labels { fill: #999; }
+.label-title { fill: #bbb; }
+.bar-value { fill: #e0e0e0; }
+.vertical-graph-line:hover { stroke: rgba(10, 10, 10, 0.4); }
 .graphs .shape-1 { background-color: #F15854; }
 .graphs .shape-2 { background-color: #FAA43A; }
 .graphs .shape-3 { background-color: #5DA5DA; }
