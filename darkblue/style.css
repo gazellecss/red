@@ -1236,14 +1236,84 @@ div.box.center { padding: 3px 0; margin-bottom: 10px; }
 	margin-bottom: 16px;
 	padding: 1em;
 }
-img[alt="qotquiet's avatar"] {
-	display: block;
-	box-sizing: border-box; 
-	background: url(https://2.bp.blogspot.com/-e34fVuYx0XI/VJFxFIydlPI/AAAAAAAAQVM/vKwotXg0FfQ/s1600/humour-drole-insolite-grand-parent-papi-mami1.jpg) no-repeat; 
-	background-size: contain;
-	height: 120px;
-	padding-left: 150px;
+
+/* Stolen bloated whutbbcode styling */
+.wbbcode.wbbimg,
+.wbbcode.wbbimgless {
+ font-size:0!important
 }
+.wbbcode.wbbimg {
+ max-width:840px!important;
+ width:100%!important
+}
+.wbbcode.wbbimgless {
+ font-size:0!important;
+ max-width:740px!important;
+ width:100%!important
+}
+.wbbcode .wbblink,
+.wbbcode ul {
+ font-size:small
+}
+.wbbcode label {
+ margin:auto 10px;
+ vertical-align:middle
+}
+.wbbcode .wbbemot {
+ -webkit-box-shadow:unset!important;
+ box-shadow:unset!important;
+ margin:10px
+}
+.wbbcode .wbbemot img {
+ margin:8px
+}
+.wbbcode .wbbshortcut li {
+ background:unset!important;
+ border:1px solid hsla(0,0%,39%,.4);
+ color:#aaa;
+ height:unset;
+ padding:0;
+ padding:5px
+}
+.wbbcode .wbbshortcut br {
+ display:none
+}
+.wbbcode .wbbshortcut li:not(.wbbnotes) strong {
+ display:block;
+ margin:-5px -5px 5px
+}
+.wbbcode .wbbshortcut li.wbbnotes strong,
+.wbbcode .wbbshortcut li:not(.wbbnotes) strong {
+ background:hsla(0,0%,100%,.1)!important;
+ border:0!important;
+ border-radius:0!important
+}
+.wbbimgless .wbbbuttons button.whutbbutton {
+ background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,.3)),color-stop(80%,hsla(0,0%,100%,.05)),to(rgba(0,0,0,.1)))!important;
+ background:-webkit-linear-gradient(top,rgba(0,0,0,.3),hsla(0,0%,100%,.05) 80%,rgba(0,0,0,.1))!important;
+ background:-o-linear-gradient(top,rgba(0,0,0,.3) 0,hsla(0,0%,100%,.05) 80%,rgba(0,0,0,.1) 100%)!important;
+ background:linear-gradient(180deg,rgba(0,0,0,.3) 0,hsla(0,0%,100%,.05) 80%,rgba(0,0,0,.1))!important;
+ border:1px solid #111!important;
+ -webkit-box-shadow:0 1px 3px rgba(0,0,0,.4);
+ box-shadow:0 1px 3px rgba(0,0,0,.4);
+ color:#aaa;
+ font-size:12px!important;
+ margin:2px;
+ text-shadow:#000 1px 1px 1px!important;
+ visibility:visible;
+ width:40px!important
+}
+.wbbimgless .wbbbuttons button.whutbbutton:hover {
+ background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(50,50,50,.3)),color-stop(60%,hsla(0,0%,100%,.1)),to(hsla(0,0%,39%,.1)))!important;
+ background:-webkit-linear-gradient(top,rgba(50,50,50,.3),hsla(0,0%,100%,.1) 60%,hsla(0,0%,39%,.1))!important;
+ background:-o-linear-gradient(top,rgba(50,50,50,.3) 0,hsla(0,0%,100%,.1) 60%,hsla(0,0%,39%,.1) 100%)!important;
+ background:linear-gradient(180deg,rgba(50,50,50,.3) 0,hsla(0,0%,100%,.1) 60%,hsla(0,0%,39%,.1))!important
+}
+.wbbbuttons button:nth-of-type(16):after {
+ content:"";
+ display:block
+}
+
 /* RED graphs */
 .chart-text { fill: #e0e0e0; }
 .labels { fill: #999; }
